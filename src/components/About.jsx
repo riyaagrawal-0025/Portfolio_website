@@ -48,7 +48,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-       I’m a dedicated software developer with a solid foundation in JavaScript and hands-on experience working with technologies like React (JavaScript library), Node.js, and Three.js. I enjoy learning and exploring new tools to build clean, functional, and user-friendly solutions. With a collaborative approach and a growth mindset, I strive to turn ideas into impactful projects while continuously improving my skills.
+       I’m an aspiring Full Stack Web Developer with a strong foundation in JavaScript and hands-on experience working with React, Node.js, and Three.js. I enjoy building clean, functional, and user-friendly web applications while exploring new tools and technologies. With a collaborative mindset and a passion for growth, I strive to turn ideas into impactful projects and continuously improve my skills.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
