@@ -13,16 +13,10 @@ import {
   nodejs,
   mongodb,
   git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
+  chatapp,
+  musicapp,
+  netflix,
 } from "../assets";
 
 export const navLinks = [
@@ -100,18 +94,15 @@ const technologies = [
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
+  
   
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Real time ChatApp",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Developed a real-time chat application using MERN stack and Socket.io, enabling seamless instant messaging and live user connectivity.",
     tags: [
       {
         name: "react",
@@ -122,54 +113,54 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Socket.io",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: chatapp,
+    source_code_link: "https://github.com/riyaagrawal-0025/Quick-ChatApp",
   },
   {
-    name: "Job IT",
+    name: "Music Academy",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Created a Music Academy website with a clean design to promote music courses and events.",
+    tags: [
+      {
+        name: "NextJs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Typescript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Acertinity UI",
+        color: "green-text-gradient",
+      }
+    ],
+    image: musicapp,
+    source_code_link: "https://github.com/riyaagrawal-0025/musicSchool",
+  },
+  {
+    name: "Netflix-GPT",
+    description:
+      "A Netflix-style web app where users can discover and stream trailers, with GPT integration for smart movie recommendations.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "firebase",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: netflix,
+    source_code_link: "https://github.com/riyaagrawal-0025/Netflix-GPT",
   },
 ];
 
