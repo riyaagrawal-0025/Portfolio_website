@@ -1,5 +1,4 @@
 import {
-  mobile,
   frontend,
   creator,
   web,
