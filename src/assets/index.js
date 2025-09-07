@@ -1,5 +1,5 @@
 import logo from "./logo.png";
-import backend from "./backend.png";
+import frontend from "./frontend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
@@ -31,7 +31,7 @@ import netflix from "./img3.png"
 
 export {
   logo,
-  backend,
+  frontend,
   creator,
   mobile,
   web,
